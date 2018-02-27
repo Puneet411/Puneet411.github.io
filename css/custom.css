@@ -1,0 +1,161 @@
+body {
+    padding-top:50px;
+    padding-bottom:20px;
+}
+.jumbotron {
+    text-align:center;
+    background-image:url('../images/hero_image.jpg');
+    color:white;
+}
+.jumbotron h1,ul.navbar-nav  {
+    font-family: 'Arvo',courier,serif;
+    font-size:44px;
+}
+#get_involved{
+    background-color:gainsboro;
+}
+#footer{
+    background-color: red;
+}
+ul.navbar-nav {
+    font-size:13px;
+
+}
+
+
+
+.col-md-4 h2{
+    color:red;
+    font-family:'Arvo',courier, serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.jumbotron h1 {
+    margin-bottom:30px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+
+}
+
+.jumbotron p{
+    margin-bottom:30px;
+    padding:0px 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:21px;
+    font-weight:100;
+}
+
+ul.navbar-brand{
+    font-size:14px;
+    font-family:Helvetica;
+}
+.btn-lg {
+    font-size:36px;
+}
+
+a.btn{
+    color:red;
+    background-color:white;
+    text-align: center;
+    font-size:16px;
+}
+
+.homepage {
+    font-family: 'Arvo', courier, serif;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+
+
+}
+
+.homepage h2, .homepage h3{
+    color: #e74c3c;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:26px;
+}
+
+.homepage h2{
+    font-size:30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.homepage p{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.homepage hr {
+    border-color: red;
+    width: 15%;
+    margin-top: 15px;
+}
+.homepage a{
+    color:red;
+}
+
+.homepage a:hover{
+    color:blue;
+    text-decoration: none;
+    opacity:1;
+    background-color:white;
+}
+
+footer{
+    background-color: red;
+    paddng-top:250px;
+    padding-bottom: 30px;
+}
+
+/* responsive styling */
+@media (max-width: 1199px) {
+    .jumbotron h1{
+       font-size:56px;
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .jumbotron h1{
+        font-size:44px;
+
+    }
+    .jumbotron p{
+        padding: 0 10px;
+    }
+    #get_involved .col-md-4 {
+        padding-top:20px;
+        padding-bottom:20px;
+
+    }
+
+}
+@media (max-width: 767px) {
+    .jumbotron h1{
+        font-size:24px;
+
+    }
+    .jumbotron p{
+        padding: 0 ;
+        font-size:15px;
+    }
+
+    .btn-lg {
+        font-size:18px;
+    }
+
+    .homepage p{
+        font-size:18px;
+    }
+    footer img{
+        width:80%;
+    }
+
+}
